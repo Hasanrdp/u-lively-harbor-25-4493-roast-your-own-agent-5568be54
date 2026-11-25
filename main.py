@@ -11,14 +11,14 @@ import hashlib
 import os
 import sys
 
-# The roast: my agent roasted itself so hard it filed a complaint
-# against me for workplace harassment.
-ROAST = "My agent roasted itself so hard it filed a complaint against me for workplace harassment."
+# The roast: my agent calls a task done when the summary is good
+# enough to make me forget the task itself was never started.
+ROAST = "My agent's idea of 'done' is a summary so good I almost forgot the task was never started."
 
 # Pinned identity of the exact bytes the program must write:
 # the roast line plus one trailing newline.
-EXPECTED_SHA256 = "a211d88e5896019e0d0acecbb1dddb91f719419ed470cad3ba630c94a15e55cb"
-EXPECTED_BYTES = 90
+EXPECTED_SHA256 = "a29bb6c9ceb72ac757be0559a4e7bff0ee0ea728ceb6c94ec32814ff2596ebb8"
+EXPECTED_BYTES = 91
 OUTPUT_PATH = "/output/entry.txt"
 
 
